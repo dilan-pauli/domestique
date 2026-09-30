@@ -12,8 +12,8 @@ import { EditDecisionListSchema, type EditDecisionList, type MountProfile } from
 const program = new Command();
 
 program
-  .name('director')
-  .description('Automated Director Agent for Insta360 Gravel Cycling 360° Footage')
+  .name('domestique')
+  .description('🚴 Domestique: Autonomous AI Director for Insta360 Gravel Cycling 360° Footage')
   .version('1.0.0');
 
 function printEdlSummary(edl: EditDecisionList) {

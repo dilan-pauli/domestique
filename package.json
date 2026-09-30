@@ -1,7 +1,7 @@
 {
-  "name": "insta360-director",
+  "name": "domestique",
   "version": "1.0.0",
-  "description": "Automated Director Agent for Insta360 Gravel Cycling Footage",
+  "description": "Autonomous AI Director Agent for Insta360 360° Cycling Footage",
   "type": "module",
   "main": "dist/cli.js",
   "scripts": {
