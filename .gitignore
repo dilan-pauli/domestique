@@ -1,0 +1,14 @@
+node_modules/
+.devenv/
+.direnv/
+dist/
+coverage/
+*.mp4
+*.mkv
+*.mov
+*.insv
+*.jsonl
+*.log
+edl.json
+.analysis_cache/
+models/*.onnx

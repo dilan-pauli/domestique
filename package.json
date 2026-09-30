@@ -1,0 +1,25 @@
+{
+  "name": "insta360-director",
+  "version": "1.0.0",
+  "description": "Automated Director Agent for Insta360 Gravel Cycling Footage",
+  "type": "module",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "director": "tsx src/cli.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "commander": "^13.1.0",
+    "onnxruntime-node": "^1.21.0",
+    "picocolors": "^1.1.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}
